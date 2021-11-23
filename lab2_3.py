@@ -14,7 +14,7 @@ class Queue:
         return self.storage.size
 
     def peek(self) -> Any:
-        return self.storage.head.value
+        return self.storage.data.value
 
     def enqueue(self, value: Any) -> None:
         self.storage.append(value)

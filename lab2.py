@@ -11,13 +11,11 @@ class Node:
 
 
 class LinkedList:
-    head: Node
     tail: Node
-    data: Node
+    data: Node  # head
     size: int
 
     def __init__(self) -> None:
-        self.head = None
         self.tail = None
         self.data = None
         self.size = 0
@@ -130,7 +128,6 @@ class LinkedList:
         insert_node.next = dtemp
 
         self.size = self.size + 1
-
 
 
 # l = LinkedList()
