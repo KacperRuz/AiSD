@@ -4,14 +4,14 @@ from lab2 import LinkedList
 
 
 class Stack:
-    def __init__(self):
+    def __init__(self) -> None:
         self.storage = LinkedList()
 
-    def __str__(self):
+    def __str__(self) -> str:
         self.storage.list()
         return ""
 
-    def __len__(self):
+    def __len__(self) -> int:
         return self.storage.size
 
     def push(self, value: Any) -> None:
