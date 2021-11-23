@@ -23,15 +23,15 @@ class Queue:
         return self.storage.pop()
 
 
-# q = Queue()
-#
-# q.enqueue("klient1")
-# q.enqueue("klient2")
-# q.enqueue("klient3")
-#
-# print(q)
-#
-# print(q.dequeue())
-# print(len(q))
-# print(q)
+q = Queue()
+
+q.enqueue("klient1")
+q.enqueue("klient2")
+q.enqueue("klient3")
+
+print(q)
+
+print(q.dequeue())
+print(len(q))
+print(q)
 
